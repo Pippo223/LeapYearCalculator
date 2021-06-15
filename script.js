@@ -36,5 +36,9 @@ function getInput() {
         }
         
     }
+    else {
+        document.getElementById("msg1").innerHTML = "Enter a year from 1582 onwards"
+        document.getElementById("msg2").innerHTML = "" 
+    }
 
 }
