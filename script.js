@@ -6,6 +6,15 @@ window.addEventListener("keydown", function(e) {
     }
 }, false);
 
+const inputBefore = document.getElementById("year").value
+if (inputBefore == 2024) {
+	document.getElementById("msg1").innerHTML = "Divisible by 4 and not divisible by 100" 
+                document.getElementById("msg2").innerHTML = inputBefore + " Is a Leap Year"
+                document.getElementById("msg2").style.color = "blue"
+} 
+	
+
+
 function getInput() {
     let inputVal = document.getElementById("year").value
     if (inputVal >= 1582) {
